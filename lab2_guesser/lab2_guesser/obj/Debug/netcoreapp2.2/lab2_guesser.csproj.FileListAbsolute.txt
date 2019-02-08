@@ -1,0 +1,11 @@
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/bin/Debug/netcoreapp2.2/lab2_guesser.deps.json
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/bin/Debug/netcoreapp2.2/lab2_guesser.runtimeconfig.json
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/bin/Debug/netcoreapp2.2/lab2_guesser.runtimeconfig.dev.json
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/bin/Debug/netcoreapp2.2/lab2_guesser.dll
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/bin/Debug/netcoreapp2.2/lab2_guesser.pdb
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/obj/Debug/netcoreapp2.2/lab2_guesser.csprojAssemblyReference.cache
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/obj/Debug/netcoreapp2.2/lab2_guesser.csproj.CoreCompileInputs.cache
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/obj/Debug/netcoreapp2.2/lab2_guesser.AssemblyInfoInputs.cache
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/obj/Debug/netcoreapp2.2/lab2_guesser.AssemblyInfo.cs
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/obj/Debug/netcoreapp2.2/lab2_guesser.dll
+/home/egorbolt/Code/studying/c#/lab2_guesser/lab2_guesser/obj/Debug/netcoreapp2.2/lab2_guesser.pdb
