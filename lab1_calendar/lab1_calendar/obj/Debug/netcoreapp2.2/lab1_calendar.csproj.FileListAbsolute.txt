@@ -1,0 +1,11 @@
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/bin/Debug/netcoreapp2.2/lab1_calendar.deps.json
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/bin/Debug/netcoreapp2.2/lab1_calendar.runtimeconfig.json
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/bin/Debug/netcoreapp2.2/lab1_calendar.runtimeconfig.dev.json
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/bin/Debug/netcoreapp2.2/lab1_calendar.dll
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/bin/Debug/netcoreapp2.2/lab1_calendar.pdb
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/obj/Debug/netcoreapp2.2/lab1_calendar.csprojAssemblyReference.cache
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/obj/Debug/netcoreapp2.2/lab1_calendar.csproj.CoreCompileInputs.cache
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/obj/Debug/netcoreapp2.2/lab1_calendar.AssemblyInfoInputs.cache
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/obj/Debug/netcoreapp2.2/lab1_calendar.AssemblyInfo.cs
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/obj/Debug/netcoreapp2.2/lab1_calendar.dll
+/home/egorbolt/Code/studying/c#/lab1_calendar/lab1_calendar/obj/Debug/netcoreapp2.2/lab1_calendar.pdb
