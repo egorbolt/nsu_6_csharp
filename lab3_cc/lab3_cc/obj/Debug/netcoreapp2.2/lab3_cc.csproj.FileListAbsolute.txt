@@ -1,0 +1,11 @@
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/bin/Debug/netcoreapp2.2/lab3_cc.deps.json
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/bin/Debug/netcoreapp2.2/lab3_cc.runtimeconfig.json
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/bin/Debug/netcoreapp2.2/lab3_cc.runtimeconfig.dev.json
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/bin/Debug/netcoreapp2.2/lab3_cc.dll
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/bin/Debug/netcoreapp2.2/lab3_cc.pdb
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/obj/Debug/netcoreapp2.2/lab3_cc.csprojAssemblyReference.cache
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/obj/Debug/netcoreapp2.2/lab3_cc.csproj.CoreCompileInputs.cache
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/obj/Debug/netcoreapp2.2/lab3_cc.AssemblyInfoInputs.cache
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/obj/Debug/netcoreapp2.2/lab3_cc.AssemblyInfo.cs
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/obj/Debug/netcoreapp2.2/lab3_cc.dll
+/home/egorbolt/Code/studying/c#/lab3_cc/lab3_cc/obj/Debug/netcoreapp2.2/lab3_cc.pdb
