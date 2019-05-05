@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5e056dd-c59a-4721-a662-cadefac0fa57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/.idea/.idea.lab4_worker/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/ApplicationContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/Project.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/Worker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/bin/Debug/netcoreapp2.2/lab4_worker.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/bin/Debug/netcoreapp2.2/lab4_worker.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/bin/Debug/netcoreapp2.2/lab4_worker.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/bin/Debug/netcoreapp2.2/lab4_worker.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/bin/Debug/netcoreapp2.2/lab4_worker.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/lab4_worker.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/Debug/netcoreapp2.2/lab4_worker.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/lab4_worker.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/lab4_worker.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/lab4_worker.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4_worker/lab4_worker/obj/project.packagespec.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4_worker/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-675">
+              <folding>
+                <marker date="1557073867053" expanded="true" signature="6:97" ph="..." />
+                <marker date="1557073867053" expanded="true" signature="113:2763" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="133:2761" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="179:2747" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="545:1268" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="1318:1399" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="1448:2011" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="2069:2294" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="2345:2564" ph="{...}" />
+                <marker date="1557073867053" expanded="true" signature="2606:2691" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4_worker/Project.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <marker date="1555988497809" expanded="true" signature="29:200" ph="{...}" />
+                <marker date="1555988497809" expanded="true" signature="56:198" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4_worker/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <marker date="1555940194068" expanded="true" signature="14:166" ph="{...}" />
+                <marker date="1555940194068" expanded="true" signature="38:164" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab4_worker/Worker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <marker date="1555988507716" expanded="true" signature="49:244" ph="{...}" />
+                <marker date="1555988507716" expanded="true" signature="75:242" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4_worker/ApplicationContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="98" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
+              <folding>
+                <marker date="1557074313053" expanded="false" signature="6:85" ph="..." />
+                <marker date="1557074313053" expanded="true" signature="101:485" ph="{...}" />
+                <marker date="1557074313053" expanded="true" signature="151:483" ph="{...}" />
+                <marker date="1557074313053" expanded="true" signature="354:477" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab4_worker/Functions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <marker date="1557073244203" expanded="false" signature="6:174" ph="..." />
+                <marker date="1557073244203" expanded="true" signature="190:5075" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="219:5073" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="285:905" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="349:895" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="658:762" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="981:2057" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="1045:2047" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="1124:1874" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="1281:1488" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="1513:1856" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="1920:2033" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2092:2391" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2156:2381" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2267:2367" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2439:3340" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2503:3330" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2582:3157" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2740:2862" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2887:3139" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="2974:3117" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="3203:3316" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="3382:4301" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="3459:4291" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="3539:4101" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="3717:4082" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="3804:3925" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="4163:4276" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="4340:5067" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="4404:5044" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="4706:4861" ph="{...}" />
+                <marker date="1557073244203" expanded="true" signature="4904:5030" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/lab4_worker/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4_worker/Worker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4_worker/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4_worker/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4_worker/Project.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4_worker/Functions.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lab4_worker/ApplicationContext.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="lab4_worker" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="lab4_worker" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="lab4_worker" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab4/lab4" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/lab4_worker/bin/Debug/netcoreapp2.2/lab4_worker.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4_worker" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab4_worker/lab4_worker.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5e056dd-c59a-4721-a662-cadefac0fa57" name="Default Changelist" comment="" />
+      <created>1557074156966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557074156966</updated>
+      <workItem from="1557074158201" duration="191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="191000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" weight="0.32394367" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab4_worker/ApplicationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="98" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
+          <folding>
+            <marker date="1557074313053" expanded="false" signature="6:85" ph="..." />
+            <marker date="1557074313053" expanded="true" signature="101:485" ph="{...}" />
+            <marker date="1557074313053" expanded="true" signature="151:483" ph="{...}" />
+            <marker date="1557074313053" expanded="true" signature="354:477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4_worker/Functions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1557073244203" expanded="false" signature="6:174" ph="..." />
+            <marker date="1557073244203" expanded="true" signature="190:5075" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="219:5073" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="285:905" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="349:895" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="658:762" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="981:2057" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="1045:2047" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="1124:1874" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="1281:1488" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="1513:1856" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="1920:2033" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2092:2391" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2156:2381" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2267:2367" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2439:3340" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2503:3330" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2582:3157" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2740:2862" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2887:3139" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="2974:3117" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="3203:3316" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="3382:4301" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="3459:4291" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="3539:4101" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="3717:4082" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="3804:3925" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="4163:4276" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="4340:5067" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="4404:5044" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="4706:4861" ph="{...}" />
+            <marker date="1557073244203" expanded="true" signature="4904:5030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4_worker/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <folding>
+            <marker date="1557073867053" expanded="true" signature="6:97" ph="..." />
+            <marker date="1557073867053" expanded="true" signature="113:2763" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="133:2761" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="179:2747" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="545:1268" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="1318:1399" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="1448:2011" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="2069:2294" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="2345:2564" ph="{...}" />
+            <marker date="1557073867053" expanded="true" signature="2606:2691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4_worker/Project.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1555988497809" expanded="true" signature="29:200" ph="{...}" />
+            <marker date="1555988497809" expanded="true" signature="56:198" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4_worker/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1555940194068" expanded="true" signature="14:166" ph="{...}" />
+            <marker date="1555940194068" expanded="true" signature="38:164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4_worker/Worker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1555988507716" expanded="true" signature="49:244" ph="{...}" />
+            <marker date="1555988507716" expanded="true" signature="75:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

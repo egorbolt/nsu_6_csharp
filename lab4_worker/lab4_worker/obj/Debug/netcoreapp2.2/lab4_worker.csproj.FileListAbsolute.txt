@@ -1,0 +1,11 @@
+C:\Code\c#\lab4_worker\lab4_worker\bin\Debug\netcoreapp2.2\lab4_worker.deps.json
+C:\Code\c#\lab4_worker\lab4_worker\bin\Debug\netcoreapp2.2\lab4_worker.runtimeconfig.json
+C:\Code\c#\lab4_worker\lab4_worker\bin\Debug\netcoreapp2.2\lab4_worker.runtimeconfig.dev.json
+C:\Code\c#\lab4_worker\lab4_worker\bin\Debug\netcoreapp2.2\lab4_worker.dll
+C:\Code\c#\lab4_worker\lab4_worker\bin\Debug\netcoreapp2.2\lab4_worker.pdb
+C:\Code\c#\lab4_worker\lab4_worker\obj\Debug\netcoreapp2.2\lab4_worker.csprojAssemblyReference.cache
+C:\Code\c#\lab4_worker\lab4_worker\obj\Debug\netcoreapp2.2\lab4_worker.csproj.CoreCompileInputs.cache
+C:\Code\c#\lab4_worker\lab4_worker\obj\Debug\netcoreapp2.2\lab4_worker.AssemblyInfoInputs.cache
+C:\Code\c#\lab4_worker\lab4_worker\obj\Debug\netcoreapp2.2\lab4_worker.AssemblyInfo.cs
+C:\Code\c#\lab4_worker\lab4_worker\obj\Debug\netcoreapp2.2\lab4_worker.dll
+C:\Code\c#\lab4_worker\lab4_worker\obj\Debug\netcoreapp2.2\lab4_worker.pdb
