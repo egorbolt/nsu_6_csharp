@@ -9,3 +9,14 @@ C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.Assem
 C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.pdb
 C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.dll
 C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.pdb
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.deps.json
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.runtimeconfig.json
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.runtimeconfig.dev.json
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.dll
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.pdb
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.csprojAssemblyReference.cache
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.csproj.CoreCompileInputs.cache
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.AssemblyInfoInputs.cache
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.AssemblyInfo.cs
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.dll
+C:\git\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj": {}
+    "C:\\git\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj": {}
   },
   "projects": {
-    "C:\\Code\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj": {
+    "C:\\git\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj",
+        "projectUniqueName": "C:\\git\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj",
         "projectName": "lab7_auth",
-        "projectPath": "C:\\Code\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj",
+        "projectPath": "C:\\git\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\lab7_auth.csproj",
         "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\obj\\",
+        "outputPath": "C:\\git\\c#\\lab7_auth\\lab7_auth\\lab7_auth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

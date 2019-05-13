@@ -15,11 +15,38 @@ namespace lab7_auth
         }
         public void Execute()
         {
+            Console.Write("Login: ");
+            var login = Console.ReadLine();
+            Console.Write("Password: ");
+
+            var pass = "";
+            do
+            {
+                var key = Console.ReadKey(true);
+                if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
+                {
+                    pass += key.KeyChar;
+                    Console.Write("*");
+                }
+                else
+                {
+                    if (key.Key == ConsoleKey.Backspace && pass.Length > 0)
+                    {
+                        pass = pass.Substring(0, (pass.Length - 1));
+                        Console.Write("\b \b");
+                    }
+                    else if (key.Key == ConsoleKey.Enter)
+                    {
+                        break;
+                    }
+                }
+            } while (true);
+
             Api.Authorize(new ApiAuthParams
             {
                 ApplicationId = 6982611,
-                Login = "boldyreved@gmail.com",
-                Password = "d3eml)@t9a5sw0Rd1sCool",
+                Login = login,
+                Password = pass,
                 Settings = Settings.All,
                 TwoFactorAuthorization = () =>
                 {
