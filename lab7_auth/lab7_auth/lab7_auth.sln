@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab7_auth", "lab7_auth\lab7_auth.csproj", "{29E897B7-83B9-42FD-AD4F-286733D4E8FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29E897B7-83B9-42FD-AD4F-286733D4E8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E897B7-83B9-42FD-AD4F-286733D4E8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E897B7-83B9-42FD-AD4F-286733D4E8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E897B7-83B9-42FD-AD4F-286733D4E8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {775DEC44-5807-421A-9664-E850AB912809}
+	EndGlobalSection
+EndGlobal

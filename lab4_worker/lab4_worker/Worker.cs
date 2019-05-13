@@ -6,6 +6,7 @@ namespace lab4
     {
         public int Id { get; set; }
         public string WorkerFIO { get; set; }
+        public string WorkerString { get; set; }
         public virtual ICollection<Project> WorkerProjects { get; set; }
     }
 }

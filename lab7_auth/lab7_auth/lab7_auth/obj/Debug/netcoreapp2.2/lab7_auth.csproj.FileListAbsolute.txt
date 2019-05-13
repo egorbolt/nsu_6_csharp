@@ -1,0 +1,11 @@
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.deps.json
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.runtimeconfig.json
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.runtimeconfig.dev.json
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.dll
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.csprojAssemblyReference.cache
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.csproj.CoreCompileInputs.cache
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.AssemblyInfoInputs.cache
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.AssemblyInfo.cs
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\bin\Debug\netcoreapp2.2\lab7_auth.pdb
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.dll
+C:\Code\c#\lab7_auth\lab7_auth\lab7_auth\obj\Debug\netcoreapp2.2\lab7_auth.pdb

@@ -9,10 +9,10 @@ namespace lab4
     {
         static void Main(string[] args)
         {
-            String line = null;
-            Functions functions = new Functions();
+            string line = null;
+            var functions = new Functions();
             
-            Console.WriteLine("Available commands: add, add_project, list_workers, list_worker_projects, delete_worker, task, exit");
+            Console.WriteLine("Available commands: add, add_project, list_workers, list_worker_projects, delete_worker, task, exit, ws");
             
             do
             {
@@ -21,18 +21,18 @@ namespace lab4
                 if (line.Equals("add"))
                 {
                     Console.Write("FIO: ");
-                    String FIO = Console.ReadLine();
+                    var fio = Console.ReadLine();
                     Console.Write("Project's name: ");
-                    String Name = Console.ReadLine();
+                    var name = Console.ReadLine();
                     Console.Write("Worker's salary: ");
-                    int Money = Int32.Parse(Console.ReadLine());
+                    var money = int.Parse(Console.ReadLine());
 
-                    Project project = new Project {ProjectName = Name, ProjectMoney = Money};
+                    var project = new Project {ProjectName = name, ProjectMoney = money};
                     List<Project> projectList = new List<Project>();
                     projectList.Add(project);
-                    Worker worker = new Worker {WorkerFIO = FIO, WorkerProjects = projectList};
+                    var worker = new Worker {WorkerFIO = fio, WorkerProjects = projectList};
 
-                    functions.Add(FIO, Name, Money);
+                    functions.Add(fio, name, money);
                 }
 
                 if (line.Equals("list_workers"))
@@ -42,30 +42,32 @@ namespace lab4
 
                 if (line.Equals("add_project"))
                 {
-                    Console.Write("Workers's id: ");
-                    int id = Int32.Parse(Console.ReadLine());
+                    Console.Write("Worker's id: ");
+                    var id = int.Parse(Console.ReadLine());
                     Console.Write("FIO: ");
-                    String FIO = Console.ReadLine();
+                    var fio = Console.ReadLine();
                     Console.Write("Project's name: ");
-                    String Name = Console.ReadLine();
+                    var name = Console.ReadLine();
                     Console.Write("Worker's salary: ");
-                    int Money = Int32.Parse(Console.ReadLine());
+                    var money = int.Parse(Console.ReadLine());
                     
-                    functions.AddProject(id, FIO, Name, Money);
+                    functions.AddProject(id, fio, name, money);
                 }
 
                 if (line.Equals("list_worker_projects"))
                 {
                     Console.Write("Worker's ID: ");
-                    int id = Int32.Parse(Console.ReadLine());
+                    if (int.TryParse(Console.ReadLine(), out var id))
+                    {
+                        functions.ListWorkerProjects(id);
+                    }
                     
-                    functions.ListWorkerProjects(id);
                 }
 
                 if (line.Equals("delete_worker"))
                 {
                     Console.Write("Worker's ID: ");
-                    int id = Int32.Parse(Console.ReadLine());
+                    var id = int.Parse(Console.ReadLine());
                     
                     functions.DeleteWorker(id);
                 }
@@ -73,6 +75,16 @@ namespace lab4
                 if (line.Equals("task"))
                 {
                     functions.ListWorkersTask();
+                }
+
+                if (line.Equals("ws"))
+                {
+                    Console.Write("Worker's ID: ");
+                    var id = int.Parse(Console.ReadLine());
+                    Console.Write("New worker's number: ");
+                    var str = Console.ReadLine();
+
+                    functions.ChangeWorkerString(id, str);
                 }
 
             } while (!line.Equals("exit"));

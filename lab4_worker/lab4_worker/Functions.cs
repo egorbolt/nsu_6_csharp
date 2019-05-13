@@ -14,7 +14,7 @@ namespace lab4
             {
                 db.Database.EnsureCreated();
                 var project = new Project() {ProjectName = Name, ProjectMoney = Money};
-                List<Project> wpProjects = new List<Project>();
+                var wpProjects = new List<Project>();
                 wpProjects.Add(project);
                 var worker = new Worker
                 {
@@ -33,25 +33,19 @@ namespace lab4
             using (var db = new ApplicationContext())
             {
                 db.Database.EnsureCreated();
-                try
+                var worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
+                if (worker == null)
                 {
-                    var worker = db.Workers.Include(e => e.WorkerProjects).First(e => id == e.Id);
-                    if (worker == null)
-                    {
-                        Console.WriteLine("Can't find worker with such FIO, creating entry for a new worker");
-                        this.Add(FIO, Name, Money);
-                    }
-                    else
-                    {
-                        var project = new Project() {ProjectName = Name, ProjectMoney = Money};
-                        worker.WorkerProjects.Add(project);
-                        db.Projects.Add(project);
-                        db.Workers.Update(worker);
-                        db.SaveChanges();
-                    }
-                } catch (System.InvalidOperationException eIOE)
+                    Console.WriteLine("Can't find worker with such FIO, creating entry for a new worker");
+                    this.Add(FIO, Name, Money);
+                }
+                else
                 {
-                    Console.WriteLine("Error: no such worker with that id");
+                    var project = new Project() {ProjectName = Name, ProjectMoney = Money};
+                    worker.WorkerProjects.Add(project);
+                    db.Projects.Add(project);
+                    db.Workers.Update(worker);
+                    db.SaveChanges();
                 }
             }
         }
@@ -60,8 +54,9 @@ namespace lab4
         {
             using (var db = new ApplicationContext())
             {
+                db.Database.EnsureCreated();
                 var workers = db.Workers.ToList();
-                foreach (Worker w in workers)
+                foreach (var w in workers)
                 {
                     Console.WriteLine($"{w.Id}.{w.WorkerFIO}");
                 }
@@ -73,24 +68,19 @@ namespace lab4
             using (var db = new ApplicationContext())
             {
                 db.Database.EnsureCreated();
-                try
-                {
-                    var worker = db.Workers.Include(e => e.WorkerProjects).First(e => id == e.Id);
+                
+                var worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
 
-                    if (worker == null)
-                    {
-                        Console.WriteLine("Can't find worker with such FIO");
-                    }
-                    else
-                    {
-                        foreach (var p in worker.WorkerProjects)
-                        {
-                            Console.WriteLine($"{p.Id}.{p.ProjectName} {p.ProjectMoney}");
-                        }
-                    }
-                } catch (System.InvalidOperationException eIOE)
+                if (worker == null)
                 {
-                    Console.WriteLine("Error: no such worker with that id");
+                    Console.WriteLine("Can't find worker with such id");
+                }
+                else
+                {
+                    foreach (var p in worker.WorkerProjects)
+                    {
+                        Console.WriteLine($"{p.Id}.{p.ProjectName} {p.ProjectMoney}");
+                    }
                 }
             }
         }
@@ -102,28 +92,18 @@ namespace lab4
             {
                 db.Database.EnsureCreated();
 
-                try
+                var worker = db.Workers.Include(e => e.WorkerProjects).First(e => id == e.Id);
+                
+                if (worker != null)
                 {
-                    var worker = db.Workers.Include(e => e.WorkerProjects).First(e => id == e.Id);
-                    
-                    if (worker != null)
+                    foreach (var p in worker.WorkerProjects)
                     {
-                        foreach (var p in worker.WorkerProjects)
-                        {
-                            db.Entry(p).State = EntityState.Deleted;
-                        }
-
-                        //удаляем объект
-                        db.Workers.Remove(worker);
-                        db.SaveChanges();
+                        db.Entry(p).State = EntityState.Deleted;
                     }
 
+                    db.Workers.Remove(worker);
+                    db.SaveChanges();
                 }
-                catch (System.InvalidOperationException eIOE)
-                {
-                    Console.WriteLine("Error: no such worker with that id");
-                }
-
             }
         }
 
@@ -134,20 +114,47 @@ namespace lab4
                 db.Database.EnsureCreated();
                 DbSet<Worker> workers = db.Workers;
 
-                var query = from worker in workers
-                    orderby worker.WorkerProjects.Sum(e => e.ProjectMoney) descending 
-                    select new
+//                var query = from worker in workers
+//                    orderby worker.WorkerProjects.Sum(e => e.ProjectMoney) descending 
+//                    select new
+//                    {
+//                        FIO = worker.WorkerFIO,
+//                        TotalMoney = worker.WorkerProjects.Sum(e => e.ProjectMoney)
+//                    };
+
+                var query = workers
+                    .Select(worker => new
                     {
                         FIO = worker.WorkerFIO,
                         TotalMoney = worker.WorkerProjects.Sum(e => e.ProjectMoney)
-                    };
-
+                    })
+                    .OrderByDescending(worker => worker.TotalMoney);
+                
                 foreach (var w in query)
                 {
                     Console.WriteLine("FIO: {0}, total money: {1}", w.FIO, w.TotalMoney);
                 }
             }
             
+        }
+
+        public void ChangeWorkerString(int id, string NewNumber)
+        {
+            using (var db = new ApplicationContext())
+            {
+                db.Database.EnsureCreated();
+                var worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
+
+                if (worker != null)
+                {
+                    Console.WriteLine("Previous worker's number was {0}", worker.WorkerString);
+                    worker.WorkerString = NewNumber;
+                    db.Workers.Update(worker);
+                    db.SaveChanges();
+                    //worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
+                    Console.WriteLine("New worker's number: {0}", worker.WorkerString);
+                }
+            }
         }
     }
 }
