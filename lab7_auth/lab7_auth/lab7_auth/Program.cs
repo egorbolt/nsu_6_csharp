@@ -3,11 +3,11 @@
     class Program
     {
         static void Main(string[] args)
-        {
-            Logic logic = new Logic();
-
-            logic.Execute();
-            logic.Dispose();
+        {   
+            using (var logic = new Logic())
+            {
+                logic.Execute();
+            }
         }
     }
 }
