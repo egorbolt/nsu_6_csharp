@@ -138,7 +138,7 @@ namespace test
             
         }
 
-        public void ChangeWorkerNumber(int id, int NewNumber)
+        public void ChangeWorkerString(int id, string NewString)
         {
             using (var db = new ApplicationContext())
             {
@@ -147,12 +147,12 @@ namespace test
 
                 if (worker != null)
                 {
-                    Console.WriteLine("Previous worker's number was {0}", worker.WorkerNumber);
-                    worker.WorkerNumber = NewNumber;
+                    Console.WriteLine("Previous worker's string was {0}", worker.WorkerString);
+                    worker.WorkerString = NewString;
                     db.Workers.Update(worker);
                     db.SaveChanges();
                     //worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
-                    Console.WriteLine("New worker's number: {0}", worker.WorkerNumber);
+                    Console.WriteLine("New worker's string: {0}", worker.WorkerString);
                 }
             }
         }

@@ -10,7 +10,7 @@ namespace test
             string line = null;
             var functions = new Functions();
 
-            Console.WriteLine("Available commands: add, add_project, list_workers, list_worker_projects, delete_worker, task, exit, wn");
+            Console.WriteLine("Available commands: add, add_project, list_workers, list_worker_projects, delete_worker, task, exit, ws");
 
             do
             {
@@ -75,14 +75,14 @@ namespace test
                     functions.ListWorkersTask();
                 }
 
-                if (line.Equals("wn"))
+                if (line.Equals("ws"))
                 {
                     Console.Write("Worker's ID: ");
                     var id = int.Parse(Console.ReadLine());
-                    Console.Write("New worker's number: ");
-                    var number = int.Parse(Console.ReadLine());
+                    Console.Write("New worker's string: ");
+                    var str = Console.ReadLine();
 
-                    functions.ChangeWorkerNumber(id, number);
+                    functions.ChangeWorkerString(id, str);
                 }
 
             } while (!line.Equals("exit"));
