@@ -138,23 +138,23 @@ namespace test
             
         }
 
-        //public void ChangeWorkerNumber(int id, int NewNumber)
-        //{
-        //    using (var db = new ApplicationContext())
-        //    {
-        //        db.Database.EnsureCreated();
-        //        var worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
+        public void ChangeWorkerNumber(int id, int NewNumber)
+        {
+            using (var db = new ApplicationContext())
+            {
+                db.Database.EnsureCreated();
+                var worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
 
-        //        if (worker != null)
-        //        {
-        //            Console.WriteLine("Previous worker's string was {0}", worker.WorkerNumber);
-        //            worker.WorkerNumber = NewNumber;
-        //            db.Workers.Update(worker);
-        //            db.SaveChanges();
-        //            //worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
-        //            Console.WriteLine("New worker's number: {0}", worker.WorkerNumber);
-        //        }
-        //    }
-        //}
+                if (worker != null)
+                {
+                    Console.WriteLine("Previous worker's number was {0}", worker.WorkerNumber);
+                    worker.WorkerNumber = NewNumber;
+                    db.Workers.Update(worker);
+                    db.SaveChanges();
+                    //worker = db.Workers.Include(e => e.WorkerProjects).FirstOrDefault(e => id == e.Id);
+                    Console.WriteLine("New worker's number: {0}", worker.WorkerNumber);
+                }
+            }
+        }
     }
 }

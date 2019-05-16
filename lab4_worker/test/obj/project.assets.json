@@ -3592,11 +3592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\c#\\test\\test\\test.csproj",
+      "projectUniqueName": "C:\\git\\c#\\lab4_worker\\test\\test.csproj",
       "projectName": "test",
-      "projectPath": "C:\\git\\c#\\test\\test\\test.csproj",
+      "projectPath": "C:\\git\\c#\\lab4_worker\\test\\test.csproj",
       "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\c#\\test\\test\\obj\\",
+      "outputPath": "C:\\git\\c#\\lab4_worker\\test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

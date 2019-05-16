@@ -9,3 +9,14 @@ C:\git\c#\test\test\obj\Debug\netcoreapp2.2\test.csprojAssemblyReference.cache
 C:\git\c#\test\test\bin\Debug\netcoreapp2.2\test.pdb
 C:\git\c#\test\test\obj\Debug\netcoreapp2.2\test.dll
 C:\git\c#\test\test\obj\Debug\netcoreapp2.2\test.pdb
+C:\git\c#\lab4_worker\test\bin\Debug\netcoreapp2.2\test.deps.json
+C:\git\c#\lab4_worker\test\bin\Debug\netcoreapp2.2\test.runtimeconfig.json
+C:\git\c#\lab4_worker\test\bin\Debug\netcoreapp2.2\test.runtimeconfig.dev.json
+C:\git\c#\lab4_worker\test\bin\Debug\netcoreapp2.2\test.dll
+C:\git\c#\lab4_worker\test\bin\Debug\netcoreapp2.2\test.pdb
+C:\git\c#\lab4_worker\test\obj\Debug\netcoreapp2.2\test.csprojAssemblyReference.cache
+C:\git\c#\lab4_worker\test\obj\Debug\netcoreapp2.2\test.csproj.CoreCompileInputs.cache
+C:\git\c#\lab4_worker\test\obj\Debug\netcoreapp2.2\test.AssemblyInfoInputs.cache
+C:\git\c#\lab4_worker\test\obj\Debug\netcoreapp2.2\test.AssemblyInfo.cs
+C:\git\c#\lab4_worker\test\obj\Debug\netcoreapp2.2\test.dll
+C:\git\c#\lab4_worker\test\obj\Debug\netcoreapp2.2\test.pdb

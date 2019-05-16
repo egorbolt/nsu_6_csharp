@@ -10,7 +10,7 @@ namespace test
       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;UserId=root;Password=12345;database=usersdb15;");
+            optionsBuilder.UseMySQL("server=localhost;UserId=root;Password=12345;database=usersdb5;");
         }
     }
 }

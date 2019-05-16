@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
 
 namespace test
 {
@@ -11,9 +9,9 @@ namespace test
         {
             string line = null;
             var functions = new Functions();
-            
+
             Console.WriteLine("Available commands: add, add_project, list_workers, list_worker_projects, delete_worker, task, exit, wn");
-            
+
             do
             {
                 line = Console.ReadLine();
@@ -27,10 +25,10 @@ namespace test
                     Console.Write("Worker's salary: ");
                     var money = int.Parse(Console.ReadLine());
 
-                    var project = new Project {ProjectName = name, ProjectMoney = money};
+                    var project = new Project { ProjectName = name, ProjectMoney = money };
                     List<Project> projectList = new List<Project>();
                     projectList.Add(project);
-                    var worker = new Worker {WorkerFIO = fio, WorkerProjects = projectList};
+                    var worker = new Worker { WorkerFIO = fio, WorkerProjects = projectList };
 
                     functions.Add(fio, name, money);
                 }
@@ -50,7 +48,7 @@ namespace test
                     var name = Console.ReadLine();
                     Console.Write("Worker's salary: ");
                     var money = int.Parse(Console.ReadLine());
-                    
+
                     functions.AddProject(id, fio, name, money);
                 }
 
@@ -61,14 +59,14 @@ namespace test
                     {
                         functions.ListWorkerProjects(id);
                     }
-                    
+
                 }
 
                 if (line.Equals("delete_worker"))
                 {
                     Console.Write("Worker's ID: ");
                     var id = int.Parse(Console.ReadLine());
-                    
+
                     functions.DeleteWorker(id);
                 }
 
@@ -77,18 +75,18 @@ namespace test
                     functions.ListWorkersTask();
                 }
 
-                //if (line.Equals("wn"))
-                //{
-                //    Console.Write("Worker's ID: ");
-                //    var id = int.Parse(Console.ReadLine());
-                //    Console.Write("New worker's number: ");
-                //    var number = int.Parse(Console.ReadLine());
+                if (line.Equals("wn"))
+                {
+                    Console.Write("Worker's ID: ");
+                    var id = int.Parse(Console.ReadLine());
+                    Console.Write("New worker's number: ");
+                    var number = int.Parse(Console.ReadLine());
 
-                //    functions.ChangeWorkerNumber(id, number);
-                //}
+                    functions.ChangeWorkerNumber(id, number);
+                }
 
             } while (!line.Equals("exit"));
 
-        }        
+        }
     }
-}    
+}
