@@ -2,7 +2,7 @@
 
 namespace lab4_worker.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class WorkerString : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,7 +12,8 @@ namespace lab4_worker.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySQL:AutoIncrement", true),
-                    WorkerFIO = table.Column<string>(nullable: true)
+                    WorkerFIO = table.Column<string>(nullable: true),
+                    WorkerString = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

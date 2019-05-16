@@ -9,8 +9,8 @@ using lab4;
 namespace lab4_worker.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20190512072025_WorkerNumber")]
-    partial class WorkerNumber
+    [Migration("20190516131352_WorkerString")]
+    partial class WorkerString
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,7 +43,7 @@ namespace lab4_worker.Migrations
 
                     b.Property<string>("WorkerFIO");
 
-                    b.Property<int>("WorkerNumber");
+                    b.Property<string>("WorkerString");
 
                     b.HasKey("Id");
 

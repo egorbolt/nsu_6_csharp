@@ -147,7 +147,7 @@ namespace lab4
 
                 if (worker != null)
                 {
-                    Console.WriteLine("Previous worker's number was {0}", worker.WorkerString);
+                    Console.WriteLine("Previous worker's string was {0}", worker.WorkerString);
                     worker.WorkerString = NewNumber;
                     db.Workers.Update(worker);
                     db.SaveChanges();

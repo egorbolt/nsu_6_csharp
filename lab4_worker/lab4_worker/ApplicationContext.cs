@@ -10,7 +10,7 @@ namespace lab4
       
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;UserId=root;Password=12345;database=usersdb6;");
+            optionsBuilder.UseMySQL("server=localhost;UserId=root;Password=12345;database=usersdb10;");
         }
     }
 }
