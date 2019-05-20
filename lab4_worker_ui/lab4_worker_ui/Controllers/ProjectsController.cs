@@ -6,26 +6,27 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using lab4_worker_ui.Data;
+using lab4_worker_ui.Models;
 using Lab4Worker.UI.DB;
 
 namespace lab4_worker_ui.Controllers
 {
-    public class WorkersController : Controller
+    public class ProjectsController : Controller
     {
         private readonly ApplicationContext _context;
 
-        public WorkersController(ApplicationContext context)
+        public ProjectsController(ApplicationContext context)
         {
             _context = context;
         }
 
-        // GET: Workers
+        // GET: Projects
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Workers.ToListAsync());
+            return View(await _context.Projects.ToListAsync());
         }
 
-        // GET: Workers/Details/5
+        // GET: Projects/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,39 +34,39 @@ namespace lab4_worker_ui.Controllers
                 return NotFound();
             }
 
-            var worker = await _context.Workers
-                .FirstOrDefaultAsync(m => m.WorkerID == id);
-            if (worker == null)
+            var project = await _context.Projects
+                .FirstOrDefaultAsync(m => m.ProjectID == id);
+            if (project == null)
             {
                 return NotFound();
             }
 
-            return View(worker);
+            return View(project);
         }
 
-        // GET: Workers/Create
+        // GET: Projects/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Workers/Create
+        // POST: Projects/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("WorkerID,WorkerFIO")] Worker worker)
+        public async Task<IActionResult> Create([Bind("ProjectID,ProjectName,ProjectMoney")] Project project)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(worker);
+                _context.Add(project);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(worker);
+            return View(project);
         }
 
-        // GET: Workers/Edit/5
+        // GET: Projects/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,22 +74,22 @@ namespace lab4_worker_ui.Controllers
                 return NotFound();
             }
 
-            var worker = await _context.Workers.FindAsync(id);
-            if (worker == null)
+            var project = await _context.Projects.FindAsync(id);
+            if (project == null)
             {
                 return NotFound();
             }
-            return View(worker);
+            return View(project);
         }
 
-        // POST: Workers/Edit/5
+        // POST: Projects/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("WorkerID,WorkerFIO")] Worker worker)
+        public async Task<IActionResult> Edit(int id, [Bind("ProjectID,ProjectName,ProjectMoney")] Project project)
         {
-            if (id != worker.WorkerID)
+            if (id != project.ProjectID)
             {
                 return NotFound();
             }
@@ -97,12 +98,12 @@ namespace lab4_worker_ui.Controllers
             {
                 try
                 {
-                    _context.Update(worker);
+                    _context.Update(project);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!WorkerExists(worker.WorkerID))
+                    if (!ProjectExists(project.ProjectID))
                     {
                         return NotFound();
                     }
@@ -113,10 +114,10 @@ namespace lab4_worker_ui.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(worker);
+            return View(project);
         }
 
-        // GET: Workers/Delete/5
+        // GET: Projects/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,30 +125,30 @@ namespace lab4_worker_ui.Controllers
                 return NotFound();
             }
 
-            var worker = await _context.Workers
-                .FirstOrDefaultAsync(m => m.WorkerID == id);
-            if (worker == null)
+            var project = await _context.Projects
+                .FirstOrDefaultAsync(m => m.ProjectID == id);
+            if (project == null)
             {
                 return NotFound();
             }
 
-            return View(worker);
+            return View(project);
         }
 
-        // POST: Workers/Delete/5
+        // POST: Projects/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var worker = await _context.Workers.FindAsync(id);
-            _context.Workers.Remove(worker);
+            var project = await _context.Projects.FindAsync(id);
+            _context.Projects.Remove(project);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool WorkerExists(int id)
+        private bool ProjectExists(int id)
         {
-            return _context.Workers.Any(e => e.WorkerID == id);
+            return _context.Projects.Any(e => e.ProjectID == id);
         }
     }
 }

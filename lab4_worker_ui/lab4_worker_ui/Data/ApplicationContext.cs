@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using lab4_worker_ui.Models;
+using Lab4Worker.UI.DB;
 
 namespace lab4_worker_ui.Data
 {

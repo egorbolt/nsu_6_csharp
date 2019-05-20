@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using lab4_worker_ui.Models;
+using Lab4Worker.UI.DB;
 
 namespace lab4_worker_ui.Data
 {

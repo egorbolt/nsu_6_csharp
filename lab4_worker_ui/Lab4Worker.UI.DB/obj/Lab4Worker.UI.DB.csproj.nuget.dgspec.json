@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git\\c#\\lab4_worker_ui\\Lab4Worker.UI.DB\\Lab4Worker.UI.DB.csproj": {}
+  },
+  "projects": {
+    "C:\\git\\c#\\lab4_worker_ui\\Lab4Worker.UI.DB\\Lab4Worker.UI.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\c#\\lab4_worker_ui\\Lab4Worker.UI.DB\\Lab4Worker.UI.DB.csproj",
+        "projectName": "Lab4Worker.UI.DB",
+        "projectPath": "C:\\git\\c#\\lab4_worker_ui\\Lab4Worker.UI.DB\\Lab4Worker.UI.DB.csproj",
+        "packagesPath": "C:\\Users\\Egor\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\c#\\lab4_worker_ui\\Lab4Worker.UI.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Egor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

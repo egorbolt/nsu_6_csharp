@@ -1,0 +1,9 @@
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\bin\Debug\netcoreapp2.2\Lab4Worker.UI.DB.deps.json
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\bin\Debug\netcoreapp2.2\Lab4Worker.UI.DB.dll
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\bin\Debug\netcoreapp2.2\Lab4Worker.UI.DB.pdb
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\obj\Debug\netcoreapp2.2\Lab4Worker.UI.DB.csprojAssemblyReference.cache
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\obj\Debug\netcoreapp2.2\Lab4Worker.UI.DB.csproj.CoreCompileInputs.cache
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\obj\Debug\netcoreapp2.2\Lab4Worker.UI.DB.AssemblyInfoInputs.cache
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\obj\Debug\netcoreapp2.2\Lab4Worker.UI.DB.AssemblyInfo.cs
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\obj\Debug\netcoreapp2.2\Lab4Worker.UI.DB.dll
+C:\git\c#\lab4_worker_ui\Lab4Worker.UI.DB\obj\Debug\netcoreapp2.2\Lab4Worker.UI.DB.pdb
